@@ -116,6 +116,18 @@ button:hover {
    letter-spacing: .4px;
 }
 
+.thank-you-message {
+   position: fixed;
+   top: 50%;
+   left: -100%;
+   transform: translate(-50%, -50%);
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   animation: slideIn 0.5s forwards;
+}
+
 /* Media */
 
 @media (orientation: portrait) and (max-width: 375px) {
