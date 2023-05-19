@@ -119,7 +119,7 @@ button:hover {
 
 /* Media */
 
-@media screen and (max-width: 375px) {
+@media (orientation: portrait) and (max-width: 375px) {
    body {
       width: 80% auto;
       display: flex;
@@ -190,6 +190,85 @@ button:hover {
       border: 2px solid hsl(0, 0%, 92%);
    }
 
+   .copyright {
+      color: hsl(0, 0%, 59%);
+      font-size: 12px;
+      padding-top: 10px;
+      padding-bottom: 25px;
+   }
+}
+
+@media (orientation: landscape) and (max-width: 667px) {
+   body {
+      width: 80% auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 150px;
+   }
+   
+   .card h1 {
+      padding: 60px 10px 25px;
+      text-align: center;
+      width: 90%;
+   }
+   
+   .card h5 {
+      padding-bottom: 50px;
+   }
+   
+   form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   
+   form input[type="email"],
+   form button {
+      width: 200%;
+      padding: 15px;
+      margin-bottom: 15px;
+      margin-right: 0;
+      border-radius: 50px;
+   }
+   
+   input[type="email"] {
+      border: 1px solid hsl(223, 100%, 88%);
+   }
+   
+   input[type="email"]::placeholder {
+      padding-left: 12px;
+      font-size: 15px;
+      color: hsl(0, 3%, 77%);
+   }
+   
+   form button {
+      box-shadow: 3px 10px 20px rgba(50, 113, 145, 0.3);
+      font-size: 18px;
+      margin: 0 0 30px;
+   }
+   
+   .card img.dashboard {
+      height: 200px;
+      width: 95%;
+   }
+   
+   
+   .social-icons {
+      margin-top: 80px;
+      margin-bottom: 25px;
+   }
+   
+   .social-icons i {
+      font-size: 20px;
+      padding: 10px 28px 10px 10px;
+      margin-right: 18px;
+      border: 100%;
+      border: 2px solid hsl(0, 0%, 92%);
+   }
+   
    .copyright {
       color: hsl(0, 0%, 59%);
       font-size: 12px;
