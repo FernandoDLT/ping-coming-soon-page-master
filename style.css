@@ -166,7 +166,7 @@ button:hover {
    }
 
    form button {
-      box-shadow: 0 2px 6px rgba(38, 105, 198, 0.4);
+      box-shadow: 3px 10px 20px rgba(50, 113, 145, 0.3);
       font-size: 18px;
       margin: 0 0 30px;
    }
