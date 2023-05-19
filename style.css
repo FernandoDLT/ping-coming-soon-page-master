@@ -51,7 +51,7 @@ input[type="email"] {
    font-size: 12px;
    padding: 12px;
    padding-left: 25px;
-   width: 400px;
+   width: 462px;
    margin-right: 10px;
    border-radius: 20px;
    border: 1px solid hsl(0, 7%, 87%);
@@ -91,12 +91,13 @@ button:hover {
 
 .social-icons {
    text-align: center;
+   margin-top: 50px;
 }
 
 .social-icons i {
-   margin-right: 10px;
    font-size: 10px;
    width: 35px;
+   margin-right: 10px;
    padding: 10px;
    color: hsl(223, 87%, 63%);
    background-color: white;
@@ -105,13 +106,13 @@ button:hover {
 }
 
 .social-icons i:first-child{
-   width: 30px;
+   width: 33px;
 }
 
 .copyright {
    color: hsl(0, 0%, 59%);
    font-size: 12px;
-   padding-top: 20px;
+   padding-top: 30px;
    padding-bottom: 20px;
    letter-spacing: .4px;
 }
